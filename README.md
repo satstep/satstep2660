@@ -162,7 +162,7 @@ Media
 **satstep2660 dynamic microstepping Nema 24 test**:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=kPX6UlxPLYU
-" target="_blank"><img src="http://img.youtube.com/vi/5523ECHDnfE/0.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/kPX6UlxPLYU/0.jpg" 
 alt="http://img.youtube.com/vi/kPX6UlxPLYU/0.jpg" width="800" height="600" border="0" /></a>
 
 
