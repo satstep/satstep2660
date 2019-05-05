@@ -85,42 +85,42 @@ Milling tips
 
 To mill the board both **1/64 and 0.01" tools** together with **[fabmodules](http://fabmodules.org/)** have been used. The 0.01" tool is necessary to isolate the TMC2660 pads, plus some other small details around it. Being a double sided board, it is necessary to use a double sided copper clad (FR1 or FR2 recommended for the milling), and to flip the board using fixed reference points. The board shown in this repository have been milled using a Roland SRM-20.
 
-###1st step - mill the top traces
+#### 1st step - mill the top traces
 
 The first step is to mill the top traces using the 1/64 tool. Because the overall milling process is a long one with multiple steps and tools changing, it is recommended to note down the machine coordinates at the XY origin point.  Also to drill a small hole by manually starting the spindle in the origin point could help in case the machine coordinates are not reliable/lost. These tricks could allow you to resume the job in case something happens. For this step, Fabmodules with the standard settings for 1/64 process have been used.
 
 Here is the top traces png requiring the 1/64 tool:
 <img src="milling/top_traces.png" width="100%">
 
-###2nd step - mill the top traces requiring the 0.01"
+#### 2nd step - mill the top traces requiring the 0.01"
 
 To avoid really long milling time, the areas requiring the 0.01" tool have been cropped from the top traces png, keeping the same png size to match the X and Y reference. These areas are only on the top layer of the PCB. The 0.01" tool is quite fragile, and for this  is recommended to use it only with the 0.01" process of the Fab Modules, and to even decrease a bit the speed to 1.5 or 1mm/s. Before launching the job remember to take again the Z reference after changing the tool.
 
 Here the cropped image for the tiny details requiring the 0.01" tool:
 <img src="milling/top_traces_001.png" width="100%">
 
-###3rd step - mill the holes
+#### 3rd step - mill the holes
 
 Requiring the 1/32 tool, this step uses the 1/32 process from Fab Modules with standard settings. Pretty much following the standard way of doing it. Again before launching the job remember to take again the Z reference after changing the tool.
 
 This is the png for the holes:
 <img src="milling/top_holes.png" width="100%">
 
-###4th step - mill the reference holes
+#### 4th step - mill the reference holes
 
 The milling of the reference holes is done separately from the PCB holes because of the different cutting depth. If you don't mind about this and have slightly longer time for milling the holes, you could also join the 3rd and the 4th step. The used tool is again the 1/32, same as the process in Fabmodules. The recommended depth is 2.9mm (cutting length of the 1/32 is 3.175mm). In case you'll make yourself a double sided board remember that these holes must be exactly symmetric to the design of the board.
 
 Use this png for the reference holes:
 <img src="milling/top_reference_holes.png" width="100%">
 
-###5th step - mill the board outline
+#### 5th step - mill the board outline
 
 In order to flip the board we now need to mill the board cutout. Similar to the job to cut the holes, this step still uses the 1/32 tool and default process from Fabmodules.
 
 Here the board cutout png:
 <img src="milling/top_cutout.png" width="100%">
 
-###6th step - flip the board and mill the bottom layer
+#### 6th step - flip the board and mill the bottom layer
 
 Is now time to remove the board and to flip it to mill the bottom traces. Try to do this as careful as possible to avoid scratching the bottom layer of copper. If you use a screwdriver, possibly try to put in between a piece of tissue. To place the board as precise as possible to match the previous origin point, use four M3 screws (or any other short 3mm cylinder). Use double side tape to fix the board to the sacrificial layer. To be noted the image is mirrored, and the reason is because you flipped the board. The bottom can be milled with the 1/64 tool and the 1/64 process from Fabmodules with standard settings.
 
