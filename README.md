@@ -18,9 +18,8 @@ Born as an evolution of **[satstep6600](https://github.com/satstep/satstep6600)*
 - back **EMF sensing**, **stall detection** (no need of endstops!), automatic **load sensing**, **load-dependent current control**
 - capable of **detecting missed steps**
 - selectable clock, internal **15Mhz** or external **16Mhz (or your preferred value 10-20Mhz)**
-- 4 x **symmetric M3 mounting holes**
 - symmetric sense resistor pcb design
-- large polygons and double-side pcb to **maximize the heat dissipation**
+- massive polygons and double-side pcb to **maximize the heat dissipation**
 - exposed **5V regulated output**
 - cost of about **11$** 
 
@@ -53,15 +52,15 @@ Downloads
 
 **Downloads (right click download as):**
 
-- **[satstep2660 schematic]()**
-- **[satstep2660 board]()**
-- **[satstep2660 top traces (1/64)]()**
-- **[satstep2660 top traces (0.01")]()**
-- **[satstep2660 top holes]()**
-- **[satstep2660 top reference holes]()**
-- **[satstep2660 bottom traces]()**
-- **[satstep2660 BOM xlsx]()**
-- **[satstep2660 BOM ods]()**
+- **[satstep2660 schematic](https://github.com/satstep/satstep2660/raw/master/eagle/satstep2660.sch)**
+- **[satstep2660 board](https://github.com/satstep/satstep2660/raw/master/eagle/satstep2660.brd)**
+- **[satstep2660 top traces (1/64)](https://raw.githubusercontent.com/satstep/satstep2660/master/milling/top_traces.png)**
+- **[satstep2660 top traces (0.01")](https://raw.githubusercontent.com/satstep/satstep2660/master/milling/top_traces_001.png)**
+- **[satstep2660 top holes](https://raw.githubusercontent.com/satstep/satstep2660/master/milling/top_holes.png)**
+- **[satstep2660 top reference holes](https://raw.githubusercontent.com/satstep/satstep2660/master/milling/top_reference_holes.png)**
+- **[satstep2660 bottom traces](https://raw.githubusercontent.com/satstep/satstep2660/master/milling/bottom_mirrored.png)**
+- **[satstep2660 BOM xlsx](https://github.com/satstep/satstep2660/raw/master/doc/satstep2660%20BOM.xlsx)**
+- **[satstep2660 BOM ods](https://github.com/satstep/satstep2660/raw/master/doc/satstep2660%20BOM.ods)**
 
 Getting started with satstep2660
 --
