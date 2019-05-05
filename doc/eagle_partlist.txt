@@ -1,0 +1,41 @@
+Partlist
+
+Exported from satstep2660.brd at 08.04.19 12:40
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part           Value                  Package                     Library             Position (mil)        Orientation
+
+3V3_EN                                02P                         con-amp-quick       (1926 2614)           R270
+5V_O                                  03P                         con-amp-quick       (2003 2794)           R180
+C1             470nF 16V              C1206                       fab                 (2315 2429)           R270
+C2             100nF 100V             C1206                       fab                 (3728 2258)           R0
+C3             10nF 50V               C1206                       fab                 (2572 2554)           R90
+C4             100nF 100V             C1206                       fab                 (3492 2020)           R0
+C5             100nF 100V             C1206                       fab                 (3492 1866)           R0
+C6             10nF 50V               C1206                       fab                 (2569 1823)           R270
+C7             220uF 63V              CPOL-RADIAL-5MM-10MM        SparkFun-Capacitors (4392 2900)           R270
+C10            220uF 63V              CPOL-RADIAL-5MM-10MM        SparkFun-Capacitors (4397 1570)           R90
+C11            10nF 50V               C1206                       fab                 (1942 1815)           R180
+C12            10nF 50V               C1206                       fab                 (1944 1665)           R180
+C13            15pF                   C1206                       fab                 (2200 1530)           R180
+CLOCK_SELECTOR                        03P                         con-amp-quick       (2229 1975)           R180
+GREEN          LED                    LED1206                     fab                 (2257 2608)           R0
+I/O                                   05P                         con-amp-quick       (3598 2464)           R0
+IC1            TMC2660                TMC_PQFP44_0.8_10X10_TMC236 TMC2660-PA          (2976 2188)           R180
+MA             TB 5.08                WEIDMULLER_PM5.08_2         satstep6600         (4165 2487)           R90
+MB             TB 5.08                WEIDMULLER_PM5.08_2         satstep6600         (4167 1993)           R90
+OSCILLATOR      16.000MHZ XO91050UITA SM77H                       crystal             (2228 1741)           R0
+POWER          TB 5.08                WEIDMULLER_PM5.08_2         satstep6600         (2482 3127)           R0
+R2             22                     R1206                       fab                 (2514 1996)           R180
+R4             22                     R1206                       fab                 (2513 2385)           R180
+R5             5K (or more)           R1206                       fab                 (2201 1401)           R180
+R6             499                    R1206                       fab                 (2194 2430)           R270
+R7             499                    R1206                       fab                 (3726 2118)           R0
+RED            LED                    LED1206                     fab                 (3492 2118)           R0
+R_SENSE_1      0.1                    R1206                       fab                 (2456 2554)           R90
+R_SENSE_2      0.1                    R1206                       fab                 (2458 1822)           R270
+SPI                                   05P                         con-amp-quick       (1921 2218)           R90
+VR             MCP1703DB              SOT223                      satsha-ttl          (1933 1387)           R0
